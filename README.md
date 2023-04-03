@@ -50,7 +50,7 @@ batch_size=2
 ### 图生图 img2img
 和`txt2img`基本一样，唯一不同的是你需要贴个初始图片
 ```properties
-/sd 文生图
+/sd 图生图
 [图片]
 正提示词=1girl,cute
 反提示词=EasyNegative
