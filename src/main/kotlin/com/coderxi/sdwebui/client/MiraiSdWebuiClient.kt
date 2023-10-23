@@ -10,7 +10,7 @@ object MiraiSdWebuiClient : KotlinPlugin(
     JvmPluginDescription(
         id = "com.coderxi.mirai-sdwebui-client",
         name = "Mirai stable-diffusion-webui Client",
-        version = "0.1.1",
+        version = "0.1.2",
     ) {
         author("coderxi")
     }

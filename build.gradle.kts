@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.coderxi"
-version = "0.1.1"
+version = "0.1.2"
 
 repositories {
     maven("https://maven.aliyun.com/repository/public")

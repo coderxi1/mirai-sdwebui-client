@@ -62,6 +62,7 @@ fun KType.convertString(value: String?): Any? {
         Long::class -> value.toLong()
         Short::class -> value.toShort()
         Byte::class -> value.toByte()
+        Boolean::class -> value.toBoolean()
         else -> throw IllegalArgumentException("Unsupported type: $classifier")
     }
 }
